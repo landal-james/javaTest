@@ -7,14 +7,16 @@
 .botoes
 {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.fundo
-{
+body{
     height: 100vh;
     width: 100vw;
-    background: rgb(34,48,195);
-    background: linear-gradient(0deg, rgba(34,48,195,1) 13%, rgba(142,45,253,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.espacamento{
+    margin-left: 100px;
 }
